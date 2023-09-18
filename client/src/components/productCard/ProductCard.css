@@ -1,0 +1,166 @@
+.productCard {
+  background-color: #fff;
+  height: 570px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productCard_imageDiv {
+  position: relative;
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-radius: 8px;
+  width: 230px;
+  height: 240px;
+}
+.productCard_imageDivimage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 192px;
+  height: 192px;
+}
+
+.productCard_imageDivOffTag {
+  position: relative;
+  background-color: #476f00;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 25px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  padding: 9px 12px;
+}
+
+.productCard_dilTime {
+  margin-top: 10px;
+  float: right;
+  width: fit-content;
+  border-radius: 100px;
+  box-sizing: border-box;
+  padding: 4px;
+  border: 1px solid #eeeeee;
+  background-color: #f7f7f7;
+  color: #606060;
+}
+
+.productCard_tag {
+  color: rgb(144, 144, 144);
+  cursor: pointer;
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.productCard_Name {
+  margin-top: -15px;
+  font-size: 16px;
+}
+
+.productCard_weight {
+  margin-top: 25px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #606060;
+  border: 1px solid rgba(32, 32, 32, 0.2);
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.productCard_price {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.productCard_price span {
+  top: 0%;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.productCard_coupon {
+  margin-top: 25px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #689f38;
+  border: 1px solid#689f38;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+.productCard_coupon option {
+  text-align: center;
+}
+
+.productCard_actionDiv {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productCard_actionDivBookmark {
+  cursor: pointer;
+  width: fit-content;
+  padding: 1px 10px;
+  font-size: 22px;
+  background-color: #ffffff;
+  border: 1px solid #b3b3b3;
+  border-radius: 4px;
+}
+.productCard_actionDivAddButton {
+  /* width: ; */
+  color: #cc0000;
+  background: none;
+  border: 1px solid #cc0000;
+  padding: 5px 70px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.productCard_actionDivAddButton:hover {
+  background-color: #cc0000;
+  color: #fff;
+}
+.productCard_actionDivAddButtonGroup {
+  display: flex;
+  justify-content: stretch;
+}
+.productCard_actionDivAddButtonGroupDecrButton,
+.productCard_actionDivAddButtonGroupWuantity,
+.productCard_actionDivAddButtonGroupIncrButton {
+  width: 56px;
+  font-size: 14px;
+  font-weight: 800;
+  background: none;
+  border: 2px solid #cc0000;
+}
+
+.productCard_actionDivAddButtonGroupDecrButton {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #cc0000;
+  fill: #fff;
+}
+.productCard_actionDivAddButtonGroupWuantity {
+  font-size: 25px;
+  text-align: center;
+  color: #cc0000;
+}
+.productCard_actionDivAddButtonGroupIncrButton {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #cc0000;
+  fill: #fff;
+}

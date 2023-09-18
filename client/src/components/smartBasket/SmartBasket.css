@@ -1,0 +1,64 @@
+.smartBasket {
+  margin: 10px 16vw;
+  background-color: #f7f7f7;
+  padding: 0 30px 20px 30px;
+}
+.smartBasket_head {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0 0 0;
+}
+.smartBasket_headLeftHeading {
+  font-size: 20px;
+  font-weight: 700;
+}
+/* .smartBasket_headRight {
+  margin-top: 0px;
+} */
+
+.smartBasket_headRightShowMore {
+  color: #606060;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 7vw;
+}
+.smartBasket_headRightShowMore:hover {
+  color: #202020;
+}
+
+/* .slick-arrow, */
+.slick-next,
+.slick-prev {
+  margin-top: -325px;
+}
+.slick-prev {
+  margin-left: 59vw;
+}
+.slick-next {
+  margin-right: 2.5vw;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  content: "";
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: #000;
+}
+
+.prebutton,
+.nextbutton {
+  color: #000;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: rgba(96, 96, 96, 0.16) 0px 4px 8px 0px;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+}

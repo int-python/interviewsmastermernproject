@@ -1,0 +1,13 @@
+.addProduct {
+  margin: 20px 20vw;
+}
+.addProduct img {
+  width: 200px;
+  height: 200px;
+}
+.addProduct input {
+  margin-bottom: 20px;
+}
+.addProduct label {
+  margin-bottom: 0px;
+}
